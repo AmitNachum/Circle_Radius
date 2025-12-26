@@ -1,0 +1,27 @@
+# Build artifacts
+build/
+*.o
+*.obj
+*.exe
+*.a
+*.so
+*.dll
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+
+# Temporary / backup files
+*~
+*.swp
